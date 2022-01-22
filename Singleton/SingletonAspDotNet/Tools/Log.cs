@@ -10,12 +10,15 @@ namespace SingletonAspDotNet.Tools
     {
         private static Log _instance = null;
         private string _path;
-
+        private static object _protect = new();
         public static Log GetInstance(string path)
         {
-            if (_instance == null)
+            lock(_protect)
             {
-                _instance = new Log(path);
+                if (_instance == null)
+                {
+                    _instance = new Log(path);
+                }
             }
 
             return _instance;
