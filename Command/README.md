@@ -8,3 +8,4 @@
 ## Implementations
 - [A Conceptual Example](https://github.com/JoseAndresHV/design-patterns/tree/master/Command/ConceptualCommand)
 - [Calculator](https://github.com/JoseAndresHV/design-patterns/tree/master/Command/Calculator)
+- [Remote Loader](https://github.com/JoseAndresHV/design-patterns/tree/master/Command/RemoteLoader)
