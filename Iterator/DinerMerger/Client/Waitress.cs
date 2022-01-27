@@ -1,5 +1,6 @@
 ﻿using DinerMerger.Aggregates.Base;
 using DinerMerger.Aggregates.Items;
+using DinerMerger.Iterators.Base;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -22,8 +23,8 @@ namespace DinerMerger.Client
         
         public void PrintMenu()
         {
-            IEnumerator pancakeIterator = _pancakeHouseMenu.GetEnumerator();
-            IEnumerator dinerIterator = _dinerMenu.GetEnumerator();
+            IIterator pancakeIterator = (IIterator)_pancakeHouseMenu.GetEnumerator();
+            IIterator dinerIterator = (IIterator)_dinerMenu.GetEnumerator();
             PrintMenu(pancakeIterator);
             PrintMenu(dinerIterator);
         }

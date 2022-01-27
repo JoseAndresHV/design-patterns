@@ -1,4 +1,5 @@
 ﻿using DinerMerger.Aggregates.Items;
+using DinerMerger.Iterators.Base;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DinerMerger.Iterators
 {
-    public class PancakeHouseMenuIterator : IEnumerator<MenuItem>
+    public class PancakeHouseMenuIterator : IIterator
     {
         List<MenuItem> _items;
         int _position = 0;

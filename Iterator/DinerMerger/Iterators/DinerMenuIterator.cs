@@ -1,11 +1,12 @@
 ﻿using DinerMerger.Aggregates.Items;
+using DinerMerger.Iterators.Base;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 
 namespace DinerMerger.Iterators
 {
-    public class DinerMenuIterator : IEnumerator<MenuItem>
+    public class DinerMenuIterator : IIterator
     {
         MenuItem[] _items;
         int _position = 0;
