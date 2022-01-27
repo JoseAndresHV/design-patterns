@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceptualIterator", "ConceptualIterator\ConceptualIterator.csproj", "{8A1E4B47-92CE-449E-A6DB-C5B9E863B751}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomIterator", "ExampleIterator\CustomIterator.csproj", "{624C7C88-07EC-4612-A8E5-6FB9648794BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8A1E4B47-92CE-449E-A6DB-C5B9E863B751}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A1E4B47-92CE-449E-A6DB-C5B9E863B751}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A1E4B47-92CE-449E-A6DB-C5B9E863B751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624C7C88-07EC-4612-A8E5-6FB9648794BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624C7C88-07EC-4612-A8E5-6FB9648794BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624C7C88-07EC-4612-A8E5-6FB9648794BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624C7C88-07EC-4612-A8E5-6FB9648794BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
